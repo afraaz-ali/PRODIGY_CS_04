@@ -1,0 +1,15 @@
+Simple Keylogger for Educational Purposes
+
+This Python program demonstrates a basic keylogger that captures and logs keystrokes made on a system. 
+The program uses the pynput library to listen to keyboard events and saves the captured keystrokes into a text file.
+
+Features:
+
+Global Keylogging: The program captures keystrokes system-wide, across all applications (not limited to a single app).
+Logs Special Keys: In addition to regular characters, it also logs special keys like space, enter, and function keys.
+Log File Output: Keystrokes are saved to a text file (key_log.txt) in the current directory.
+Stop Logging with Esc Key: The keylogger can be stopped by pressing the Esc key.
+
+Educational Use Only:
+This program is intended for educational purposes, to understand how keyloggers work and how to safeguard against them. 
+Do not use this program for any malicious or illegal purposes. Always ensure you have explicit consent from any users before running the program on their systems.
